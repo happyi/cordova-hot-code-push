@@ -1,6 +1,3 @@
-# THIS PROJECT IS DEPRECATED
-
-We are not using this repo anymore, and we lack the manpower and the experience needed to maintain it. We are aware of the inconveniece that this may cause you. Feel free to use it as is, or create your own fork. See https://github.com/nordnet/cordova-hot-code-push/issues/371 for more information.
 
 # Cordova Hot Code Push Plugin
 
@@ -60,24 +57,12 @@ In this guide we will show how quickly you can test this plugin and start using 
   ```sh
   cordova plugin add cordova-hot-code-push-plugin
   ```
-
-3. Add plugin for local development:
-
-  ```sh
-  cordova plugin add cordova-hot-code-push-local-dev-addon
-  ```
-
-4. Install Cordova Hot Code Push CLI client:
+3. Install Cordova Hot Code Push CLI client:
 
   ```sh
   npm install -g cordova-hot-code-push-cli
   ```
 
-5. Start local server by executing:
-
-  ```sh
-  cordova-hcp server
-  ```
 
   As a result you will see something like this:
   ```
@@ -90,7 +75,7 @@ In this guide we will show how quickly you can test this plugin and start using 
   cordova-hcp public server available at: https://5027caf9.ngrok.com
   ```
 
-6. Open new console window, go to the project root and launch the app:
+4. Open new console window, go to the project root and launch the app:
 
   ```sh
   cordova run
@@ -98,7 +83,7 @@ In this guide we will show how quickly you can test this plugin and start using 
 
   Wait until application is launched for both platforms.
 
-7. Now open your `index.html` page in `www` folder of the `TestProject`, change something in it and save. In a few seconds you will see updated page on the launched devices (emulators).
+5. Now open your `index.html` page in `www` folder of the `TestProject`, change something in it and save. In a few seconds you will see updated page on the launched devices (emulators).
 
 From this point you can do local development, where all the changes are uploaded on the devices without the need to restart applications on every change you made.
 
